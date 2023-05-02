@@ -21,6 +21,7 @@ p {
     font: 15px;
     font-weight: 400;
     font-family: 'outfitregular';
+    color: hsl(220, 15%, 55%);
 }
 
 h1 {
