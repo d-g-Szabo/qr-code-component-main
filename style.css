@@ -20,9 +20,36 @@ body {
 p {
     font: 15px;
     font-weight: 400;
+    font-family: 'outfitregular';
 }
 
 h1 {
+    font-family:'outfitsemibold';
     font-weight: 700;
-    font-style: out;
+}
+
+@font-face {
+    font-family: 'outfitbold';
+    src: url('font/outfit-bold-webfont.woff2') format('woff2'),
+         url('font/outfit-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'outfitregular';
+    src: url('font/outfit-regular-webfont.woff2') format('woff2'),
+         url('font/outfit-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'outfitsemibold';
+    src: url('font/outfit-semibold-webfont.woff2') format('woff2'),
+         url('font/outfit-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
