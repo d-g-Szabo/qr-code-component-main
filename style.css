@@ -6,3 +6,23 @@
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+body {
+    background-color: #d5e1ef;
+    width: 1440px;
+}
+
+.main {
+    background-color:#ffffff;
+    text-align: center;
+}
+
+p {
+    font: 15px;
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 700;
+    font-style: out;
+}
