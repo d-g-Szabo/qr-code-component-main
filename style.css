@@ -15,9 +15,15 @@ body {
 .main {
     background-color:#ffffff;
     text-align: center;
-    padding: 30px;
+    padding: 15px;
     width:min-content;
     margin: auto;
+    border-radius: 16px;
+}
+
+img {
+    border-radius: 10px;
+    width: 300px;
 }
 
 p {
