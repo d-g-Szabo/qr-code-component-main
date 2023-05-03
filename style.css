@@ -21,6 +21,11 @@ body {
     border-radius: 16px;
 }
 
+.text {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 img {
     border-radius: 10px;
     width: 300px;
@@ -35,8 +40,8 @@ p {
 
 h1 {
     font-family:'outfitsemibold';
-    font-weight: 700;
-    font-size: 25px;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 @font-face {
