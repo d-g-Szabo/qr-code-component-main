@@ -15,10 +15,13 @@ body {
 .main {
     background-color:#ffffff;
     text-align: center;
+    padding: 30px;
+    width:min-content;
+    margin: auto;
 }
 
 p {
-    font: 15px;
+    font-size: 15px;
     font-weight: 400;
     font-family: 'outfitregular';
     color: hsl(220, 15%, 55%);
@@ -27,6 +30,7 @@ p {
 h1 {
     font-family:'outfitsemibold';
     font-weight: 700;
+    font-size: 25px;
 }
 
 @font-face {
