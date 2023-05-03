@@ -10,6 +10,7 @@
 body {
     background-color: #d5e1ef;
     width: 1440px;
+    height: 568px;
 }
 
 .main {
@@ -19,6 +20,7 @@ body {
     width:min-content;
     margin: auto;
     border-radius: 16px;
+    margin-top: 200px;
 }
 
 .text {
