@@ -54,6 +54,7 @@ img {
 
 p {
     margin-top: 1em;/*space between the text*/
+    margin-bottom: 1em;
     font-size: 16px;
     font-weight: 400;
     font-family: 'outfitregular';
