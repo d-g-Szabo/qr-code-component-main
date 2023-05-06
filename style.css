@@ -9,35 +9,53 @@ footer a {
 
 body {
     background-color: hsl(212, 45%, 89%);
-    min-height: 100vh; /*adding this change nothing as it seeems*/
+    /*Flexbox to center the main*/
+    /*
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    */
+    /*Grid to center the main*/
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    /*
+    place-items: center; Not working, places Main and Footer far away from eachother
+    */
 }
 
-@media only screen and (max-width: 600px) {
+/*@media only screen and (max-width: 600px) {
     body {width: 375px; height: 200px;}
-  }
+  }*/
 
 main {
     background-color: hsl(0, 0%, 100%);
     text-align: center;
-    padding: 15px;
-    width:min-content;
-    margin: auto;
-    border-radius: 16px;
-    margin-top: 200px;
+    padding: 1em;
+    max-width: 20em;
+    border-radius: 3%;
     box-shadow: 1px 2px 20px #8888;
+    /*Margin to center the Main*/
+    /*
+    margin-top: 200px;
+    margin: auto;
+    */
 }
 
 .text {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: center;/*align it to center*/
 }
 
 img {
-    border-radius: 10px;
-    width: 300px;
+    border-radius: 3%;
+    max-width: 100%;
 }
 
 p {
+    margin-top: 1em;/*space between the text*/
     font-size: 15px;
     font-weight: 400;
     font-family: 'outfitregular';
