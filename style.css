@@ -9,8 +9,7 @@ footer a {
 
 body {
     background-color: hsl(212, 45%, 89%);
-    width: 1440px;
-    height: 568px;
+    min-height: 100vh; /*adding this change nothing as it seeems*/
 }
 
 @media only screen and (max-width: 600px) {
